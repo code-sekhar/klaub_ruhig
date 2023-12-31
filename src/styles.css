@@ -1,1 +1,81 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif !important;
+    overflow-x: hidden;
+}
+
+.slider_img.slick-slide.slick-current.slick-active.slick-center>.inner_slider_img>img {
+    transform: scale(1.2) !important;
+    border: 20px solid #fff;
+}
+
+.slider_img.slick-slide.slick-current.slick-active>.inner_slider_img>img {
+    transform: scale(1.1.5) !important;
+    border: 10px solid #fff;
+}
+
+element.style {
+    opacity: 1;
+    width: 4704px;
+    transform: translate3d(-1176px, 0px, 0px);
+}
+
+.slick-track {
+    display: flex !important;
+    align-items: center;
+}
+
+.slider_img.slick-slide {}
+
+.slider_img.slick-slide>.inner_slider_img>img {
+    border: 10px solid #fff;
+    /* transform: scaleY(0.9); */
+}
+
+
+/* .slider_img.slick-slide.slick-current.slick-active>.inner_slider_img {
+    border: 10px solid #fff;
+}
+
+.slider_img.slick-slide.slick-current>.inner_slider_img {
+    border: 0px solid #fff;
+} */
+
+.slick-dots li.slick-active button:before {
+    color: black;
+    content: '' !important;
+    opacity: 1;
+    width: 40px !important;
+    height: 8px !important;
+    background: #1F171B;
+    border-radius: 10px;
+}
+
+.slick-dots li button:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "" !important;
+    font-family: "slick";
+    font-size: 6px;
+    line-height: 20px;
+    text-align: center;
+    border: 2px solid #1F171B;
+    color: black;
+    border-radius: 100px;
+    opacity: 1 !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 8px !important;
+    height: 8px !important;
+    flex-shrink: 0;
+}
+
+.slick-list.draggable {
+    padding-bottom: 30px !important;
+}

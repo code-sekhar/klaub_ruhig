@@ -1,0 +1,186 @@
+.inner_banner_sections>img {
+    width: 100%;
+}
+
+.menu_for_sesk>ul {
+    padding-left: 0 !important;
+    margin-bottom: 0;
+    text-align: right;
+}
+
+.menu_for_sesk>ul>li {
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+li {}
+
+.main_menu_header_sections {
+    height: 100px;
+}
+
+.menu_for_sesk>ul>li>a {
+    line-height: 100px;
+    text-decoration: none;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    /* line-height: normal; */
+    text-transform: uppercase;
+}
+
+.inner_logo_areas {
+    line-height: 100px;
+}
+
+.main_menu_header_sections {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 999;
+}
+
+.menu_for_sesk>ul>li:last-child {
+    margin-right: 0px;
+}
+
+a.hum {
+    line-height: 100px;
+    color: #fff;
+    font-size: 28px;
+}
+
+.mob_hum_berget {
+    text-align: right;
+}
+
+.mob_hum_berget {
+    display: none;
+}
+
+.mobile_menus_areas {
+    position: fixed;
+    z-index: 999999;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    /* z-index: 99999; */
+    background: #00000094;
+    backdrop-filter: blur(7px);
+}
+
+.main_mob_menu>ul {
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom: 0 !important;
+}
+
+.main_mob_menu>ul>li>a {
+    font-size: 22px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.main_mob_menu>ul>li {
+    margin-bottom: 30px;
+}
+
+.main_mob_menu {
+    margin-top: 90px;
+}
+
+.main_mob_menu {
+    padding: 0px 20px;
+    height: 100%;
+}
+
+a.close_menu {
+    position: absolute;
+    right: 25px;
+    font-size: 36px;
+    color: #fff;
+    top: 28px;
+}
+
+
+/* responsive css */
+
+@media only screen and (max-width: 375px) and (min-width: 346px) {}
+
+@media only screen and (max-width: 544px) and (min-width: 375px) {}
+
+@media only screen and (max-width: 555px) and (min-width: 376px) {}
+
+@media only screen and (max-width: 768px) and (min-width: 544px) {}
+
+@media only screen and (max-width: 1222px) and (min-width: 999px) {}
+
+@media only screen and (max-width: 1658px) and (min-width: 1000px) {}
+
+@media only screen and (max-width: 1002px) and (min-width: 665px) {}
+
+@media only screen and (max-width: 664px) and (min-width: 300px) {}
+
+
+/* js_cont_justify */
+
+@media only screen and (max-width: 1366px) and (min-width: 993px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 300px) {}
+
+@media only screen and (max-width: 826px) and (min-width: 300px) {
+    .main_menuss {
+        display: none;
+    }
+    .inner_logo_areas>img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px) and (min-width: 300px) {}
+
+@media only screen and (max-width: 370px) and (min-width: 320px) {}
+
+@media only screen and (max-width: 900px) and (min-width: 370px) {}
+
+@media only screen and (max-width: 790px) and (min-width: 300px) {}
+
+@media only screen and (max-width: 1920px) and (min-width: 1080px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 826px) {}
+
+@media only screen and (max-width: 11200px) and (min-width: 1600px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 400px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 551px) {}
+
+@media only screen and (max-width: 1382px) and (min-width: 1000px) {}
+
+@media only screen and (max-width: 1480px) and (min-width: 1000px) {}
+
+@media only screen and (max-width: 1524px) and (min-width: 1422px) {}
+
+@media only screen and (max-width: 1657) and (min-width: 1524px) {}
+
+@media only screen and (max-width: 11200px) and (min-width: 1400px) {}
+
+@media only screen and (max-width: 1000px) and (min-width: 700px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 300px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 768px) {}
+
+@media only screen and (max-width: 768px) and (min-width: 300px) {
+    .mob_hum_berget {
+        display: block !important;
+    }
+}
+
+@media only screen and (max-width: 4999px) and (min-width: 999px) {}
+
+@media only screen and (max-height: 4999px) and (min-height: 990px) {}

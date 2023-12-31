@@ -1,0 +1,120 @@
+.footer_section {
+    background: #1F171B;
+    padding-top: 45px;
+}
+
+.footer_logo>img {
+    width: 137.25px;
+    height: 30px;
+    flex-shrink: 0;
+}
+
+.footer_txt>p {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    opacity: 0.5;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 0px;
+}
+
+.footer_column {
+    padding-bottom: 43px;
+}
+
+.footer_logo {
+    margin-bottom: 20px;
+}
+
+.footer_links_areas>h4 {
+    color: #838186;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    /* 180% */
+    text-transform: capitalize;
+    margin-bottom: 12px;
+}
+
+.footer_links_areas>h5 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 0;
+    line-height: 1;
+    text-transform: capitalize;
+}
+
+.full_footer {
+    border-top: 1px solid #3E3E3E;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.footer_txt>h4 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 0;
+}
+
+.footer_txt>ul>li {
+    list-style: none;
+}
+
+.footer_txt>ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.footer_txt>ul {
+    text-align: right;
+}
+
+.footer_txt>ul>li {
+    display: inline-block;
+}
+
+.footer_txt>ul>li>a {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.footer_txt>ul>li {
+    margin-left: 30px;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 300px) {
+    .inner_footer_sections {
+        padding-bottom: 40px;
+    }
+    .footer_column {
+        padding-bottom: 20px;
+    }
+    .footer_txt>ul {
+        text-align: center !important;
+    }
+    .footer_txt>ul>li {
+        margin: 0px 15px !important;
+    }
+    .footer_txt>h4 {
+        text-align: center;
+        margin-bottom: 20px !important;
+    }
+}

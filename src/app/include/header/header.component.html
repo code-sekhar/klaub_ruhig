@@ -1,0 +1,52 @@
+<div class="main_menu_header_sections">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-4 col-6">
+                <div class="logo_area">
+                    <div class="inner_logo_areas">
+                        <img src="../../../assets/img/logo.png" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-8 col-6">
+                <div class="main_menuss">
+                    <div class="menu_for_sesk">
+                        <ul>
+                            <li>
+                                <a href="">ÜBER UNS</a>
+                            </li>
+                            <li>
+                                <a href="">UNSERE SORTEN</a>
+                            </li>
+                            <li>
+                                <a href="">KONTAKT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mob_hum_berget">
+                    <a (click)="clickEventHandler()" class="hum"><i class="fa-solid fa-bars"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="mobile_menus_areas" *ngIf="this.menu_show">
+    <div class="inner_mobiles_menus">
+        <a class="close_menu" (click)="close_handel()"><i class="fa-solid fa-xmark"></i></a>
+        <div class="main_mob_menu">
+
+            <ul>
+                <li>
+                    <a href="">ÜBER UNS</a>
+                </li>
+                <li>
+                    <a href="">UNSERE SORTEN</a>
+                </li>
+                <li>
+                    <a href="">KONTAKT</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

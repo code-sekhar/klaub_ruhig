@@ -1,0 +1,234 @@
+.top_bio>h4 {
+    color: #361C07;
+    text-align: left;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 3.2px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.top_bio>h2 {
+    color: #361C07;
+    font-family: Montserrat;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+
+.auth_content>h4 {
+    color: #361C07;
+    font-feature-settings: 'liga' off;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: capitalize;
+}
+
+.auth_content>h2 {
+    color: #361C07;
+    font-feature-settings: 'liga' off;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 26px;
+    line-height: 1;
+    text-transform: capitalize;
+}
+
+.bottom_line {
+    display: flex;
+    align-items: center;
+}
+
+.img_auth>img {
+    width: 120px;
+}
+
+.top_bio {
+    margin-bottom: 60px;
+}
+
+.auth_content>button {
+    color: #361C07;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    background: white;
+    padding: 12px 30px;
+    line-height: 1;
+    border-radius: 28px;
+    border: 1px solid #361C07;
+}
+
+.auth_content {
+    padding-left: 40px;
+}
+
+.bottom_line {
+    margin-bottom: 40px;
+}
+
+.main_ful_cont>p {
+    color: #80605B;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px;
+    /* 188.889% */
+    text-transform: capitalize;
+}
+
+.main_ful_cont>p {
+    margin-bottom: 26px;
+}
+
+button.resume_gr {
+    color: #7FB740;
+    font-feature-settings: 'liga' off;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1;
+    /* font-family: Poppins; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    background: white;
+    padding: 12px 30px;
+    line-height: 1;
+    border-radius: 28px;
+    border-radius: 54px;
+    border: 1px solid #7FB740;
+}
+
+button.resume_gr {
+    display: flex;
+    align-items: center;
+}
+
+button.resume_gr>span {
+    margin-right: 12px;
+}
+
+.inner_bio-austria {
+    background-image: url(../../../../../assets/img/bg_saver.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bio-austria {
+    padding: 100px 0px;
+}
+
+.bio-austria {
+    background: #f6f6f6;
+}
+
+@media only screen and (max-width: 375px) and (min-width: 346px) {}
+
+@media only screen and (max-width: 544px) and (min-width: 375px) {}
+
+@media only screen and (max-width: 555px) and (min-width: 376px) {}
+
+@media only screen and (max-width: 768px) and (min-width: 544px) {}
+
+@media only screen and (max-width: 1222px) and (min-width: 999px) {}
+
+@media only screen and (max-width: 1658px) and (min-width: 1000px) {}
+
+@media only screen and (max-width: 1002px) and (min-width: 665px) {}
+
+@media only screen and (max-width: 664px) and (min-width: 300px) {}
+
+
+/* js_cont_justify */
+
+@media only screen and (max-width: 1366px) and (min-width: 993px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 300px) {}
+
+@media only screen and (max-width: 826px) and (min-width: 300px) {}
+
+@media only screen and (max-width: 480px) and (min-width: 300px) {}
+
+@media only screen and (max-width: 370px) and (min-width: 320px) {}
+
+@media only screen and (max-width: 900px) and (min-width: 370px) {}
+
+@media only screen and (max-width: 790px) and (min-width: 300px) {}
+
+@media only screen and (max-width: 1920px) and (min-width: 1080px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 826px) {}
+
+@media only screen and (max-width: 11200px) and (min-width: 1600px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 400px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 551px) {}
+
+@media only screen and (max-width: 1382px) and (min-width: 1000px) {}
+
+@media only screen and (max-width: 1480px) and (min-width: 1000px) {}
+
+@media only screen and (max-width: 1524px) and (min-width: 1422px) {}
+
+@media only screen and (max-width: 1657) and (min-width: 1524px) {}
+
+@media only screen and (max-width: 11200px) and (min-width: 1400px) {}
+
+@media only screen and (max-width: 1000px) and (min-width: 700px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 300px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 768px) {}
+
+@media only screen and (max-width: 768px) and (min-width: 300px) {
+    .sub_abt_cont>h4 {
+        margin-bottom: 10px !important;
+    }
+    .abt_bottom_col {
+        margin-top: 30px !important;
+    }
+    .top_bio>h2 {
+        margin-bottom: 30px !important;
+        font-size: 28px !important;
+    }
+    .top_bio {
+        margin-bottom: 30px !important;
+    }
+    .auth_content {
+        padding-left: 20px !important;
+    }
+    .auth_content>h4 {
+        font-size: 20px !important;
+    }
+    .auth_content>h2 {
+        font-size: 34px !important;
+        margin-bottom: 20px !important;
+    }
+    .potato_card {
+        margin-bottom: 40px;
+    }
+    .inner_bio-austria {
+        background-size: cover;
+        background-position: right;
+    }
+}
+
+@media only screen and (max-width: 4999px) and (min-width: 999px) {}
+
+@media only screen and (max-height: 4999px) and (min-height: 990px) {}
