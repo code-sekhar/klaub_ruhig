@@ -24,13 +24,14 @@ export class OurProductComponent {
     autoplay:true,
     dots: false,
     navSpeed: 1500,
-    navText: ['', ''],
     responsive: {
       0: {
-        items: 1
+        items: 1,
+        nav: false
       },
       400: {
-        items: 1
+        items: 1,
+        nav: false
       },
       740: {
         items: 2

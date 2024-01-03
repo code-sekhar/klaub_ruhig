@@ -54,13 +54,12 @@ export class ProductSliderComponent {
     autoplay: true,
     center: true,
     loop: true,
-    nav: true,
+    nav: false,
     mouseDrag: false,
     touchDrag: false,
     pullDrag: false,
     dots: false,
     navSpeed: 2000,
-    navText: ['', ''],
     responsive: {
       0: {
         items: 1
