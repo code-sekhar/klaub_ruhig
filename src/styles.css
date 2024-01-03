@@ -132,3 +132,15 @@ element.style {
 .full_slider_areas .owl-nav {
     padding-top: 40px;
 }
+
+@media only screen and (max-width: 600px) and (min-width: 300px) {
+    .w-sliders .owl-next {
+        position: static !important;
+    }
+    .w-sliders .owl-prev {
+        position: static !important;
+    }
+    .w-sliders .owl-nav {
+        padding-top: 0px;
+    }
+}
