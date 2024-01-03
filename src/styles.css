@@ -122,15 +122,11 @@ element.style {
 }
 
 .full_slider_areas .owl-next {
-    position: static !important;
+    top: 50%;
 }
 
 .full_slider_areas .owl-prev {
-    position: static !important;
-}
-
-.full_slider_areas .owl-nav {
-    padding-top: 40px;
+    top: 50%;
 }
 
 @media only screen and (max-width: 600px) and (min-width: 300px) {
@@ -142,5 +138,14 @@ element.style {
     }
     .w-sliders .owl-nav {
         padding-top: 0px;
+    }
+    .full_slider_areas .owl-next {
+        position: static !important;
+    }
+    .full_slider_areas .owl-prev {
+        position: static !important;
+    }
+    .full_slider_areas .owl-nav {
+        padding-top: 40px;
     }
 }
