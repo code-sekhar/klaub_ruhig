@@ -55,7 +55,7 @@ export class ProductSliderComponent {
     pullDrag: false,
     dots: false,
     navSpeed: 2000,
-    navText: ['<i class="fa-solid fa-circle-chevron-left"></i>', '<i class="fa-solid fa-circle-chevron-right"></i>'],
+    navText: ['<i class="fa-solid fa-chevron-left"></i>', '<i class="fa-solid fa-chevron-right"></i>'],
     responsive: {
       0: {
         items: 1
