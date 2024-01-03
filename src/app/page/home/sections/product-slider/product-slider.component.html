@@ -2,29 +2,50 @@
     <div class="inner_product_slider_sectt">
         <div class="container">
             <div class="full_slider_areas">
-                <div class="your-slider-class">
+                <owl-carousel-o [options]="customOptions">
+                    <ng-template carouselSlide *ngFor="let item of this.data_gl">
+                        <div class="slider_img">
+                            <div class="inner_slider_img">
+                                <img src="../../../../../assets/img/gallery/{{item.img}}" alt="" srcset="">
+                            </div>
+
+                        </div>
+                    </ng-template>
+
+                </owl-carousel-o>
+                <!-- <div class="your-slider-class">
                     <div class="slider_img">
                         <div class="inner_slider_img">
-                            <img src="../../../../../assets/img/s1.png" alt="" srcset="">
+                            <img src="../../../../../assets/img/gallery/s1.png" alt="" srcset="">
                         </div>
+
                     </div>
                     <div class="slider_img">
                         <div class="inner_slider_img">
-                            <img src="../../../../../assets/img/s2.png" alt="" srcset="">
+                            <img src="../../../../../assets/img/gallery/s2.png" alt="" srcset="">
                         </div>
+
                     </div>
                     <div class="slider_img">
                         <div class="inner_slider_img">
-                            <img src="../../../../../assets/img/s3.png" alt="" srcset="">
+                            <img src="../../../../../assets/img/gallery/s3.png" alt="" srcset="">
                         </div>
+
                     </div>
                     <div class="slider_img">
                         <div class="inner_slider_img">
-                            <img src="../../../../../assets/img/s2.png" alt="" srcset="">
+                            <img src="../../../../../assets/img/gallery/s2.png" alt="" srcset="">
                         </div>
+
                     </div>
-                    <!-- Add more slides as needed -->
-                </div>
+                    <div class="slider_img">
+                        <div class="inner_slider_img">
+                            <img src="../../../../../assets/img/gallery/s3.png" alt="" srcset="">
+                        </div>
+
+                    </div>
+
+                </div> -->
             </div>
         </div>
     </div>

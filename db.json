@@ -1,0 +1,59 @@
+{
+    "gallery": [{
+            "img": "s1.png"
+        },
+        {
+            "img": "s2.png"
+        },
+        {
+            "img": "s3.png"
+        },
+        {
+            "img": "s2.png"
+        }, {
+            "img": "s1.png"
+        },
+        {
+            "img": "s2.png"
+        },
+        {
+            "img": "s3.png"
+        },
+        {
+            "img": "s2.png"
+        }
+
+    ],
+    "products": [{
+            "title": "Potato",
+            "price": "107",
+            "img": "potato.png"
+        },
+        {
+            "title": "Lorem Ipsum Is Simply",
+            "price": "907",
+            "img": "potato.png"
+        },
+        {
+            "title": "Potato",
+            "price": "207",
+            "img": "potato.png"
+        },
+        {
+            "title": "Potato",
+            "price": "107",
+            "img": "potato.png"
+        },
+        {
+            "title": "Lorem Ipsum Is Simply",
+            "price": "907",
+            "img": "potato.png"
+        },
+        {
+            "title": "Potato",
+            "price": "207",
+            "img": "potato.png"
+        }
+
+    ]
+}

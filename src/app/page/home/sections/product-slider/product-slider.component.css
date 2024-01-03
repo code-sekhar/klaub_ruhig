@@ -11,3 +11,12 @@
 .product_slider_sectiuoi {
     padding-bottom: 120px;
 }
+
+.inner_slider_img>img {
+    width: 100%;
+}
+
+.inner_slider_img {
+    width: 100%;
+    margin: auto;
+}

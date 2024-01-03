@@ -85,6 +85,11 @@ button.card_btns {
     margin-bottom: 50px;
 }
 
+.potato_card {
+    width: 90%;
+    margin: auto;
+}
+
 @media only screen and (max-width: 375px) and (min-width: 346px) {}
 
 @media only screen and (max-width: 544px) and (min-width: 375px) {}

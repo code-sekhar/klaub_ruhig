@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule,CUSTOM_ELEMENTS_SCHEMA  } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { HomeRoutingModule } from './home-routing.module';
@@ -10,9 +10,12 @@ import { BannerComponent } from './sections/banner/banner.component';
 import { BioAustriaComponent } from './sections/bio-austria/bio-austria.component';
 import { OurProductComponent } from './sections/our-product/our-product.component';
 import { ProductSliderComponent } from './sections/product-slider/product-slider.component';
+import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 
 @NgModule({
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
   declarations: [
     HomeComponent,
     BannerComponent,
@@ -21,9 +24,9 @@ import { ProductSliderComponent } from './sections/product-slider/product-slider
     OurProductComponent,
     ProductSliderComponent
   ],
+
   imports: [
-    CommonModule,
-    HomeRoutingModule
+    CommonModule,HomeRoutingModule,SlickCarouselModule,CarouselModule
   ]
 })
 export class HomeModule { }

@@ -15,44 +15,42 @@
         <div class="potato_cont_section">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-4 col-md-4 col-12">
+                    <div class="w-sliders">
+                        <owl-carousel-o [options]="customOptions">
+                            <ng-template carouselSlide *ngFor="let item of this.data_prod">
+                                <div class="potato_card">
+                                    <div class="potato_img_box">
+                                        <img src="../../../../../assets/img/product/{{item.img}}" class="card_thumb" />
+                                    </div>
+                                    <div class="potato_card_content">
+                                        <h4>{{item.title}}</h4>
+                                        <h2>${{item.price}} USD</h2>
+                                        <button class="card_btns">Add to cart</button>
+                                    </div>
+                                </div>
+                            </ng-template>
+
+                        </owl-carousel-o>
+                    </div>
+
+                    <!-- <div class="col-xl-4 col-md-4 col-12" *ngFor="let item of this.data_prod">
                         <div class="potato_card">
                             <div class="potato_img_box">
-                                <img src="../../../../../assets/img/potato.png" class="card_thumb" />
+                                <img src="../../../../../assets/img/product/{{item.img}}" class="card_thumb" />
                             </div>
                             <div class="potato_card_content">
-                                <h4>Lorem Ipsum is simply</h4>
-                                <h2>$107.00 USD</h2>
+                                <h4>{{item.title}}</h4>
+                                <h2>${{item.price}} USD</h2>
                                 <button class="card_btns">Add to cart</button>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-xl-4 col-md-4 col-12">
-                        <div class="potato_card">
-                            <div class="potato_img_box">
-                                <img src="../../../../../assets/img/potato.png" class="card_thumb" />
-                            </div>
-                            <div class="potato_card_content">
-                                <h4>Lorem Ipsum is simply</h4>
-                                <h2>$197.00 USD</h2>
-                                <button class="card_btns">Add to cart</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-md-4 col-12">
-                        <div class="potato_card">
-                            <div class="potato_img_box">
-                                <img src="../../../../../assets/img/potato.png" class="card_thumb" />
-                            </div>
-                            <div class="potato_card_content">
-                                <h4>Lorem Ipsum is simply</h4>
-                                <h2>$297.00 USD</h2>
-                                <button class="card_btns">Add to cart</button>
-                            </div>
-                        </div>
-                    </div>
+                    </div> -->
+
+
                 </div>
+
             </div>
+
         </div>
     </div>
 </div>
