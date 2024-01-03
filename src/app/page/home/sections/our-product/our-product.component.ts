@@ -21,17 +21,18 @@ export class OurProductComponent {
     mouseDrag: false,
     touchDrag: false,
     pullDrag: false,
-    autoplay:true,
+    autoplay:false,
     dots: false,
     navSpeed: 1500,
+    navText: ['<i class="fa-solid fa-circle-chevron-left"></i>', '<i class="fa-solid fa-circle-chevron-right"></i>'],
     responsive: {
       0: {
         items: 1,
-        nav: false
+        nav: true
       },
       400: {
         items: 1,
-        nav: false
+        nav: true
       },
       740: {
         items: 2

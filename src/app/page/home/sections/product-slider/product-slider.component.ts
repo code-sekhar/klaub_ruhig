@@ -11,12 +11,7 @@ export class ProductSliderComponent {
   constructor(private el: ElementRef,private apiServicesService: ApiServicesService) {
 
   }
-  slides = [
-    {img: "http://placehold.it/350x150/000000"},
-    {img: "http://placehold.it/350x150/111111"},
-    {img: "http://placehold.it/350x150/333333"},
-    {img: "http://placehold.it/350x150/666666"}
-  ];
+
   ngOnInit(): void {
 
     this.galleryData();
@@ -51,15 +46,16 @@ export class ProductSliderComponent {
     // }, 200);
   }
   customOptions: OwlOptions = {
-    autoplay: true,
+    autoplay: false,
     center: true,
     loop: true,
-    nav: false,
+    nav: true,
     mouseDrag: false,
     touchDrag: false,
     pullDrag: false,
     dots: false,
     navSpeed: 2000,
+    navText: ['<i class="fa-solid fa-circle-chevron-left"></i>', '<i class="fa-solid fa-circle-chevron-right"></i>'],
     responsive: {
       0: {
         items: 1

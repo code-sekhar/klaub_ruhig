@@ -96,3 +96,39 @@ element.style {
     transform: scale(.8);
     transition: .6s ease;
 }
+
+.owl-next {
+    right: -33px;
+    position: absolute;
+    font-size: 30px !important;
+    top: 36%;
+    background: transparent !important;
+    transform: translateY(-50%);
+    color: #361c07 !important;
+}
+
+.w-sliders {
+    position: relative;
+}
+
+.owl-prev {
+    left: -33px;
+    position: absolute;
+    font-size: 30px !important;
+    top: 36%;
+    background: transparent !important;
+    transform: translateY(-50%);
+    color: #361c07 !important;
+}
+
+.full_slider_areas .owl-next {
+    position: static !important;
+}
+
+.full_slider_areas .owl-prev {
+    position: static !important;
+}
+
+.full_slider_areas .owl-nav {
+    padding-top: 40px;
+}

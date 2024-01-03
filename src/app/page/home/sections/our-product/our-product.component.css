@@ -104,7 +104,12 @@ button.card_btns {
 
 @media only screen and (max-width: 1002px) and (min-width: 665px) {}
 
-@media only screen and (max-width: 664px) and (min-width: 300px) {}
+@media only screen and (max-width: 664px) and (min-width: 300px) {
+    .potato_card {
+        width: 100% !important;
+        margin: auto;
+    }
+}
 
 
 /* js_cont_justify */
